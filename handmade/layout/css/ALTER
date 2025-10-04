@@ -1,0 +1,20 @@
+ALTER TABLE handmade
+ADD CONSTRAINT IDP
+FOREIGN KEY(prodect)
+REFERENCES products(ID)
+ON UPDATE CASCADE
+ON DELETE CASCADE;
+
+ $stmt = $con->prepare("SELECT tourist.*,
+                                city.cityName AS cityName,
+                                sort.Name AS sort
+                         FROM tourist 
+                          INNER JOIN city
+                          ON 
+                          city.Id = tourist.city
+                          INNER JOIN sort
+                          ON
+                          sort.Id= tourist.sort
+
+                          ");
+      $stmt->execute();

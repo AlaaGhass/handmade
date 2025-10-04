@@ -1,0 +1,248 @@
+/* Start templet   */
+.notification {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+
+
+body{
+  height: 900px;
+  font-family: 'Nunito';
+  padding: 0px;
+  background-color:#f2f2f2;
+  color: #020202;
+}
+
+/* End templet   */
+
+/*Start navbar */
+
+
+
+
+.nav-profile{
+width: 1px;
+height: 1px;
+padding: 50px;
+padding: 50px 0px 90px 90px;
+padding-bottom: 10px;
+background: #404040;
+size :3px;
+
+
+}
+.navbar li, i{
+
+color: #fff;
+
+}
+.navbar li, i :hover{
+
+color: #f2f2f2;
+
+}
+.drop{
+color: #fff;
+background: #404040;
+}
+.divider{
+  color:#404040
+  background: #404040;
+}
+.dropdown-menu a{
+color: #fff;
+}
+
+.nave-left{
+  width: 300pt;
+  height: 250pt;
+  align-items: left;
+}
+.home-stats h1{
+ font-size: 40pt;
+ font-family: "Times New Roman", Times, serif;
+text-shadow:0 0 3px #FF00007A, 0 0 5px #FFB541B3;
+ font-style: italic;
+ color: #65829D;
+}
+.row{
+  padding: 60pt;
+  color: #fff;
+
+}
+.row a{
+  font-size: 35pt;
+  color: #fff;
+
+  
+  
+}
+.rowsA{
+background-color: #65829D;
+height: 200pt;
+width: 230pt;
+text-align: center;
+padding-top: 50pt;
+font-size: 30px;
+border-radius: 20pt;
+margin: 10pt;
+}
+.rowsB{
+background-color: #65829D;
+height: 200pt;
+width: 230pt;
+text-align: center;
+padding-top: 50pt;
+font-size: 30px;
+border-radius: 20pt;
+margin: 10pt;
+}
+.rowsC{
+background-color: #65829D;
+height: 200pt;
+width: 230pt;
+text-align: center;
+padding-top: 50pt;
+font-size: 30px;
+border-radius: 20pt;
+margin: 10pt;
+
+}
+.vertical-menu {
+  width: 200px;
+  height: 600pt;
+  background-color:#65829D;
+  
+   
+
+
+}
+
+.vertical-menu a {
+  
+  color: #fff;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  margin-top: 1px;
+  text-align: center;
+
+
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #1322148c;
+  color: white;
+  /*start login & signup */}
+.limiter{
+background: url("../cover.jpg");
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: auto; 
+  overflow: auto; 
+  
+  background-color: rgba(0,0,0,0.2); 
+  padding-top: 40px;
+}
+.container {
+  padding: 16px;
+}
+.container {
+  
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+.limiterLogin{
+
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+color: #fff;
+  width: 40%;
+  height: 400pt;
+  padding: 50pt;
+      background-color: rgba(0,0,0,0.9); 
+    border-radius: 20pt
+  }
+
+.limiterLogin input{
+   margin: 5pt
+  }
+  .limiterLogin img{
+   width: 90pt;
+   height: 90pt;
+  
+   border: 3px solid;
+    border-radius: 50%; 
+  }
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    font-style: italic;
+    font-family: serif;
+}
+.limiterLogin input[type=submit]{
+  border: 1px solid;
+   border-radius: 10pt ;
+ color: #000;
+   background-color: #dedede;
+  }
+  .limiterLogin input[type=submit]:hover{
+  
+   background-color: rgb(255 255 255 / 50%);
+   color:  #0a263e;
+  }
+  .limiterLogin a{
+   color: #f2f2f2;
+  }
